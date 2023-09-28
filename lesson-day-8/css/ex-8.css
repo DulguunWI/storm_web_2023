@@ -1,0 +1,73 @@
+h3{
+    color: navy;
+}
+p{
+    color: #fb7d9e;
+}
+strong{
+    color: purple;
+}
+div{
+    height: 300px;
+    width: 400px;
+    background-color: black;
+}
+
+div div {
+    height: 50px;
+    width: 150px;
+    background-color: #fb7d9e;
+}
+
+
+.ex5{
+    background-color: orange;
+    color: white;
+}
+.ungu h4{
+    color: aqua;
+}
+.ungu h5{
+    color: aquamarine;
+}
+.ungu h6{
+    color: azure;
+}
+.husnegt{
+    background-color: white;
+}
+.monday{
+    background-color: pink;
+}
+.thuesday{
+    background-color: aliceblue;
+}
+.wednesday{
+    background-color: aqua;
+}
+.ex8{
+    background-color: yellow;
+}
+.hex{
+    background-color: #fbbfef;
+}
+.ex10{
+    height: 300px;
+    width: 700px;
+    background-color: darkcyan;
+    padding: 10px;
+}
+.buur{
+    border-radius: 50%; height: 70px; width: 70px; background-color: burlywood; 
+}
+.dur{
+    height: 90px; width: 110px;
+    background-color: beige;
+    margin-top: 10px;
+}
+.text{
+    background-color: gray ;
+    height: 100px; width: 600px;
+    color: #fb7d9e;
+    margin-top: 10px;
+}

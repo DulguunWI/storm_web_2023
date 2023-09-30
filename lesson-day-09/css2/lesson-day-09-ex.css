@@ -1,0 +1,71 @@
+.ex1 {
+    font-weight: bold;
+}
+
+.ex2 span {
+    font-style: italic;
+}
+
+.eex {
+    text-transform: uppercase;
+}
+
+.eeex {
+    text-transform: capitalize;
+}
+
+.exx {
+    text-decoration: line-through;
+}
+
+.exxx {
+    text-decoration: underline;
+}
+
+.ex5 a {
+    color: blue;
+}
+
+.ex5 a:hover {
+    color: black;
+}
+
+.ex5 a:visited {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.ex6 {
+    text-transform: capitalize;
+}
+
+.x {
+    font-weight: bold;
+}
+
+.xx {
+    text-decoration: line-through;
+}
+
+.xxx {
+    text-decoration: underline;
+}
+
+.xxxx {
+    text-decoration: line-through;
+}
+
+.ex8:hover {
+    color: palevioletred;
+    font-size: large;
+    border: 1px dotted black;
+}
+.ex9:focus{
+    color: green;
+    border: 7px;
+
+}
+.ex9:hover{
+    color: green;
+
+}

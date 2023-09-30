@@ -1,0 +1,23 @@
+.ex1{
+    width: 300px; height: 200px; background-color: blue;
+}
+.ex2{
+    width: 500px; height: 300px; background-color: aqua;
+}
+.ex3{
+    width: 200px; height: 200px; background-color: aqua;
+    overflow: hidden;
+}
+.ex4{
+width: 300px; height: 300px;
+overflow: scroll; background-color: #eeee;
+}
+.ex5{
+    width: 500px; height: 250px; background-color: antiquewhite; overflow-y: scroll;
+    border: 1px;
+}
+.ex5e{
+    width: 150px; height: 100px; background-color: pink; overflow: scroll;}
+.ex5ee{
+    width: 150px; height: 100px; background-color: yellow; overflow: scroll;
+}

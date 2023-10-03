@@ -1,0 +1,41 @@
+.register-form {
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #435334;
+
+}
+
+div {
+    width: 280px;
+    margin: 10px auto;
+}
+label{
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+
+input{
+    background-color: #f3fde8;
+    border: 1px solid #435334;
+    border-bottom: 2px solid #435334;
+    border-radius: 8px;
+    padding: 5px 10px ;
+}
+#ddd{
+    text-align: right;
+    float: right;
+    background-color: #f3fde8;
+    text-emphasis-color: #435334;
+    padding: 5px 10px;
+    border: 1px solid #435334;
+    border-radius: 10px;
+}
+
+

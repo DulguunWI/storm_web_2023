@@ -1,0 +1,29 @@
+.ex1:hover{
+
+    border: 1px solid #ed0915;
+    filter: grayscale();
+    
+}
+.ex1{
+    width: 250px; height: 250px;
+    border: 1px solid #434343;
+}
+.ex3{
+    border-radius: 100px; width: 200px; height: 200px;
+}
+.ex4{
+    width: 100%; height: 100%;
+    box-shadow: 3px 6px 15px #ed0915;  
+}
+.ex6{
+    width: 250px; height: 250px;
+    border: 5px dashed #ed0915;
+    padding: 4px;
+}
+.ex7{
+    background: url(../zurag/159-600x400.jpg);
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    }

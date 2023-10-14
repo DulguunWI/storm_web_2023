@@ -37,3 +37,21 @@
 #javascript{
     background-color: red;
 }
+#photos-nature{
+    display: flex;
+    width:200px;
+    height: 337px;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+footer{
+    background-color: rgb(90, 84, 84);
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+header{
+    background-color: #110c4a;
+    color: white;
+}

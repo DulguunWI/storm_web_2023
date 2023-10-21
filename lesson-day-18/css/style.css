@@ -1,0 +1,16 @@
+#page{
+    width: 900px;
+    height: 400px;
+    background-color: #ccc;
+    margin: 0 auto;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content img{
+    width: 200px;
+
+}

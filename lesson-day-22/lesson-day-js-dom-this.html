@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        td {
+            height: 150px;
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1" id="chores">
+        <tr id="days">
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+        </tr>
+        <tr id="tasks">
+            <!-- <td></td> -->
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        //Write your code here!
+        var tasksElement = document.getElementById("tasks");
+        let tdElements = document.getElementsByTagName("td");
+        let createTr = document.createElement("tr");
+        let mondayTd = document.createElement("td");
+        createTr.appendChild(mondayTd);
+
+        let tuesdayUlElement = document.createElement('ul');
+        mondayTd.appendChild(tuesdayUlElement);
+        var liElement = document.createElement('li');
+        liElement.innerHTML = 'Clean my room';
+        tuesdayUlElement.appendChild(liElement);
+        tdElements[1].appendChild(tuesdayUlElement);
+    </script>
+</body>
+
+</html>

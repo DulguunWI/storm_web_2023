@@ -1,0 +1,19 @@
+#page{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: burlywood;
+    border: 3px solid gold;
+}
+
+#page h1 {
+    text-align: center;
+    background-color: antiquewhite;
+}
+#page #content{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: aqua;
+    border: 3px solid rgb(0, 17, 255);
+}

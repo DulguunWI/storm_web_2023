@@ -44,3 +44,23 @@ console.log('lesson day 24');
     return x;
  }
 console.log(myArrowFunctionWithParameter(5));
+function makeButton(text){
+    let button = document.createElement('button');
+    button.innerHTML = text;
+    button.setAttribute('style', 'border:1px solid red; padding:10px; font-size:15px;');
+    button.addEventListener('click',writeText);
+    //call makeButton twice to test.
+    let keyboard = document.getElementById('keyboard');
+    keyboard.appendChild(button); 
+}
+
+function makeText(event){
+    console.log(event.target.innerText);
+    let textBox = document.getElementById('textbox');
+    textBox.innerHTML += 'a';}
+makeButton('q')
+makeButton('w')
+makeButton('e')
+makeButton('r')
+makeButton('t')
+makeButton('y');

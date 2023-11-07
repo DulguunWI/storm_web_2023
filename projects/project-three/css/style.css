@@ -1,0 +1,32 @@
+#page {
+    max-width: 1430px;
+    margin: 0 auto;
+}
+
+.section-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 486px;
+    background-color: #013560;
+    color: #ffff;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 100% */
+    letter-spacing: 2px;    
+}
+
+#headercontent{
+    
+    width: 1430px;
+    height: 350px;
+    background-image: url('../images/biz-header.jpg');
+    background-size: cover;
+    
+
+
+}
+
+
